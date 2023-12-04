@@ -6,7 +6,7 @@ from socket import *
 #(SOCK_DGRAM is used for UDP)
 serverSocket = socket(AF_INET, SOCK_DGRAM)
 
-# Assign a server port number
+# Assign a server port number 
 serverPort = 12001
 
 # Bind the socket to server address and server port
