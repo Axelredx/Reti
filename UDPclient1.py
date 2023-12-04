@@ -1,7 +1,7 @@
 from socket import *
 
 #Put server address here
-serverName = "130.136.5.36"
+serverName = "130.136.5.36" 
 serverPort = 12001
 
 clientSocket = socket(AF_INET, SOCK_DGRAM)
